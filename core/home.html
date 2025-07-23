@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Preguntas recientes</h2>
+<a href="{% url 'ask_question' %}" class="btn btn-primary mb-3">Hacer una pregunta</a>
+<ul class="list-group">
+    {% for question in questions %}
+    <li class="list-group-item">
+        <a href="{% url 'question_detail' question.id %}">{{ question.title }}</a><br>
+        <small>Por {{ question.author.username }} - {{ question.created_at|date:"SHORT_DATETIME_FORMAT" }}</small>
+    </li>
+    {% empty %}
+    <li class="list-group-item">No hay preguntas todavía.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
