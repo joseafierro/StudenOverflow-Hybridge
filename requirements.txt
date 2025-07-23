@@ -1,0 +1,6 @@
+# Estructura y contenido inicial del proyecto StudentOverflow (Django)
+
+# requirements.txt
+# -----------------
+django>=4.2
+gunicorn
