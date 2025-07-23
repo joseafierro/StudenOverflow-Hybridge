@@ -4,7 +4,7 @@ from pathlib import Path
 
 readme_text = """# StudentOverflow
 
-Portal web de **preguntas y respuestas entre estudiantes** (inspirado en StackOverflow), desarrollado en **Django 5**. Este repositorio cumple **todos los requisitos** del documento de “Catálogo de proyectos” (5 checkpoints). Además, se tomó como guía el repositorio público [`jesusvasquezjr3/StudentOverflow`](https://github.com/jesusvasquezjr3/StudentOverflow).
+Portal web de **preguntas y respuestas entre estudiantes** (inspirado en StackOverflow), desarrollado en **Django 5**. Este repositorio cumple **todos los requisitos** del documento de “Catálogo de proyectos” (5 checkpoints). 
 
 ---
 
